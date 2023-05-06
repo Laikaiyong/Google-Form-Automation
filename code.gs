@@ -8,7 +8,7 @@ const APUBCC_MEMBERSHIP_RESPONSES_COLUMN_FIRST_NAME =
 
 function setupTrigger() {
   ScriptApp.newTrigger('onFormSubmit')
-    .forForm('1fHxIaCGpeEulE1NgoOtFn_xPiKZwYqLgC1y1FKSO_z0')
+    .forForm('')
     .onFormSubmit()
     .create();
 }
