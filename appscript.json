@@ -1,0 +1,50 @@
+{
+    "timeZone": "Asia/Singapore",
+    "dependencies": {
+      "enabledAdvancedServices": [
+        {
+          "userSymbol": "Gmail",
+          "serviceId": "gmail",
+          "version": "v1"
+        },
+        {
+          "userSymbol": "Sheets",
+          "serviceId": "sheets",
+          "version": "v4"
+        },
+        {
+          "userSymbol": "Drive",
+          "serviceId": "drive",
+          "version": "v2"
+        },
+        {
+          "userSymbol": "Tasks",
+          "version": "v1",
+          "serviceId": "tasks"
+        }
+      ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+      "openid",
+      "https://www.googleapis.com/auth/script.external_request",
+      "https://www.googleapis.com/auth/documents",
+      "https://www.googleapis.com/auth/script.send_mail",
+      "https://www.googleapis.com/auth/spreadsheets.currentonly",
+      "https://www.googleapis.com/auth/spreadsheets",
+      "https://www.googleapis.com/auth/forms",
+      "https://www.googleapis.com/auth/forms.currentonly",
+      "https://mail.google.com/",
+      "https://www.googleapis.com/auth/tasks",
+      "https://www.googleapis.com/auth/tasks.readonly"
+    ],
+    "runtimeVersion": "V8",
+    "sheets": {
+      "macros": [
+        {
+          "menuName": "manualKYC",
+          "functionName": "manualKYC"
+        }
+      ]
+    }
+  }
